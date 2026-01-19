@@ -3,7 +3,7 @@ All input variables (**A, B, C, D**) and the output (**E**) are treated as abstr
 
 ---
 
-# **Scenario 1A: Assignment of Zero to Individual Inputs**
+## **Scenario 1A: Assignment of Zero to Individual Inputs**
 
 **Metamorphic Relation Type:** **Exclusive (E)**
 
@@ -57,7 +57,7 @@ These test cases evaluate whether excluding the contribution of a single abstrac
 
 ---
 
-# **Scenario 1B: Assignment of NULL to Individual Inputs**
+## **Scenario 1B: Assignment of NULL to Individual Inputs**
 
 **Metamorphic Relation Type:** **Exclusive (E)**
 
@@ -107,7 +107,7 @@ These test cases evaluate how excluding the contribution of a single abstract in
 
 ---
 
-# **Scenario 1C: Temporal Lag Applied to Individual Inputs**
+## **Scenario 1C: Temporal Lag Applied to Individual Inputs**
 
 **Metamorphic Relation Type:** **Permutative (P)**
 
@@ -198,7 +198,7 @@ The transformation alters the alignment of samples without modifying their indiv
 These test cases evaluate whether **temporal displacement of a single abstract input variable**, without modifying its values, interferes with the system’s output or execution behavior, revealing sensitivity to temporal dependencies under a strict black-box assumption.
 
 
-# **Scenario 1D: Multiplicative Scaling of Individual Inputs**
+## **Scenario 1D: Multiplicative Scaling of Individual Inputs**
 
 **Metamorphic Relation Type:** **Multiplicative (M)**
 
@@ -249,7 +249,8 @@ The objective is to observe whether increasing the magnitude of a single input i
 ### **Evaluation Note**
 
 These test cases assess whether amplifying the magnitude of a single abstract input variable, while preserving the structure of all others, interferes with the system’s output or execution behavior, characterizing sensitivity under a strict black-box assumption.
-# **Scenario 1E: Gaussian Noise Injection into Individual Inputs**
+
+## **Scenario 1E: Gaussian Noise Injection into Individual Inputs**
 
 **Metamorphic Relation Type:** **Sustainable (S)**
 
