@@ -1,77 +1,88 @@
 # Metamorphic Tests
 
-Este repositório contém os **artefatos experimentais de Testes Metamórficos (Metamorphic Testing)** desenvolvidos no contexto de uma **dissertação de mestrado**, cujo objetivo é avaliar sistemas baseados em dados e modelos computacionais.
+This repository contains the experimental artifacts of **Metamorphic Testing** developed in the context of the scientific research presented in the article:
 
-O repositório apoia a **execução, organização e análise dos experimentos**, possibilitando a reprodutibilidade dos testes e a avaliação sistemática dos resultados obtidos em diferentes níveis de complexidade.
+> **“Metamorphic Testing for Machine Learning Based Measuring Systems.”**
 
----
+This research was authored by **P. E. S. Santos, J. A. C. Braz, R. P. David, and W. S. Melo Jr.**, conducted in collaboration with:
 
-## 1. Contexto científico e trabalho de base
+- National Institute of Metrology, Quality and Technology (Inmetro), Brazil  
+- iLAB – Software Quality Assurance  
 
-Os experimentos realizados neste repositório derivam e estendem o trabalho disponibilizado pelo grupo de pesquisa Conect2AI, conforme o repositório e o artigo científico a seguir:
-
-- Repositório base (sistema original):  
-  https://github.com/conect2ai/MDPI2023-pollution
-
-- Artigo científico associado:  
-  https://www.mdpi.com/2071-1050/16/2/708
-
-- Grupo de pesquisa Conect2AI:  
-  https://www.instagram.com/conect2ai
+The repository supports the execution, organization, and analysis of experiments, enabling test reproducibility and the systematic evaluation of results obtained at different levels of complexity, particularly in the context of **black-box evaluation of machine learning–based measuring systems within Legal Metrology**.
 
 ---
 
-## 2. Sistema sob Teste (SUT)
+## 1. Scientific Context and Foundational Work
 
-O **Sistema Sob Teste (SUT)** utilizado nos experimentos de Testes Metamórficos corresponde ao conjunto de notebooks, modelos preditivos e simulações disponibilizados no repositório base mencionado anteriormente.
+The experiments conducted in this repository derive from and extend the work made available by the Conect2AI research group, as described in the following repository and scientific article:
 
-Esse sistema compreende:
-- Análise de dados de viagens veiculares
-- Modelos preditivos para variáveis utilizadas no cálculo de emissões
-- Simulações baseadas em SUMO e grafos urbanos
+- **Base repository (original system):**  
+  https://github.com/conect2ai/MDPI2023-pollution  
 
-O SUT é utilizado como base para a definição, aplicação e avaliação das relações metamórficas investigadas na dissertação.
+- **Associated scientific article:**  
+  https://www.mdpi.com/2071-1050/16/2/708  
+
+- **Conect2AI research group:**  
+  https://www.instagram.com/conect2ai  
 
 ---
 
-## 3. Organização dos Testes Metamórficos
+## 2. System Under Test (SUT)
 
-Os Testes Metamórficos foram organizados em **níveis de complexidade crescente**, conforme o desenho experimental definido na dissertação, sendo implementados em notebooks Jupyter independentes:
+The **System Under Test (SUT)** used in the Metamorphic Testing experiments corresponds to the set of notebooks, predictive models, and simulations available in the previously mentioned base repository.
+
+This system includes:
+
+- Vehicular trip data analysis  
+- Predictive models for variables used in emission calculations  
+- Simulations based on SUMO and urban graph networks  
+
+The SUT serves as the foundation for defining, applying, and evaluating the metamorphic relations investigated in this research.
+
+---
+
+## 3. Organization of Metamorphic Tests
+
+The Metamorphic Tests were organized into increasing levels of complexity according to the experimental design presented in the article and were implemented in independent Jupyter notebooks:
 
 - `Level_1_metamorphic_tests.ipynb`
 - `Level_2_metamorphic_tests.ipynb`
 - `Level_3_metamorphic_tests.ipynb`
 
-Cada notebook contempla:
-- A definição dos casos de teste metamórficos
-- A aplicação das relações metamórficas
-- A execução dos testes sobre o SUT
-- A coleta e análise das métricas por caso de teste
+Each notebook includes:
+
+- Definition of metamorphic test cases  
+- Application of metamorphic relations  
+- Execution of tests over the SUT  
+- Collection and analysis of metrics per test case  
 
 ---
 
-## 4. Planos de Teste Metamórfico
+## 4. Metamorphic Test Plans
 
-Os **Planos de Teste Metamórfico** estão documentados na pasta `metamorphic_test_plans/` e descrevem, de forma estruturada, o planejamento dos testes executados em cada nível experimental.
+The **Metamorphic Test Plans** are documented in the `metamorphic_test_plans/` folder and describe, in a structured manner, the planning of the tests executed at each experimental level.
 
-Arquivos disponíveis:
+**Available files:**
+
 - `Test_Plan_Level_1.md`
 - `Test_Plan_Level_2.md`
 - `Test_Plan_Level_3.md`
 
-Cada plano de teste apresenta:
-- O objetivo do nível de teste
-- A caracterização das relações metamórficas aplicadas
-- A estratégia de execução dos casos de teste
-- O vínculo entre os testes planejados e os notebooks de execução
+Each test plan presents:
 
-Esses documentos formalizam o **desenho experimental dos Testes Metamórficos**, garantindo rastreabilidade, clareza metodológica e apoio à reprodutibilidade dos experimentos descritos na dissertação.
+- The objective of the test level  
+- The characterization of the applied metamorphic relations  
+- The execution strategy for the test cases  
+- The traceability link between planned tests and execution notebooks  
+
+These documents formalize the experimental design of the Metamorphic Tests, ensuring traceability, methodological clarity, and support for reproducibility.
 
 ---
 
-## 5. Notebooks oriundos do sistema original
+## 5. Notebooks Derived from the Original System
 
-Os notebooks listados a seguir **não foram desenvolvidos especificamente para os Testes Metamórficos**, mas fazem parte do **sistema original sob teste**, sendo utilizados como suporte à execução dos experimentos:
+The notebooks listed below were not specifically developed for Metamorphic Testing but are part of the original system under test and are used to support the execution of the experiments:
 
 - `initial_analysis.ipynb`
 - `predict_maf.ipynb`
@@ -82,43 +93,45 @@ Os notebooks listados a seguir **não foram desenvolvidos especificamente para o
 - `simulate_sumo.ipynb`
 - `create_graph_network.ipynb`
 
-Esses notebooks foram originalmente desenvolvidos no contexto do repositório base e são mantidos neste repositório **exclusivamente para fins de reprodução do sistema sob teste**, não constituindo artefatos de Testes Metamórficos.
+These notebooks were originally developed within the base repository and are maintained in this repository exclusively for the purpose of reproducing the system under test. They do not constitute Metamorphic Testing artifacts.
 
-A separação entre o sistema sob teste e os artefatos de teste é adotada para garantir **clareza metodológica e validade experimental**.
+The separation between the system under test and the testing artifacts ensures methodological clarity and experimental validity.
 
 ---
 
-## 6. Resultados experimentais
+## 6. Experimental Results
 
-Os resultados consolidados dos experimentos estão disponíveis na pasta `results/`, na forma de arquivos **PDF**, contendo:
+The consolidated results of the experiments are available in the `results/` folder in **PDF format**, containing:
 
-- Gráficos gerados durante a execução dos testes
-- Métricas obtidas por caso de teste metamórfico
-- Resultados organizados por nível de teste
+- Graphs generated during test execution  
+- Metrics obtained per metamorphic test case  
+- Results organized by test level  
 
-Arquivos disponíveis:
+**Available files:**
+
 - `L1 - Metamorphic Test Cases.pdf`
 - `L2 - Metamorphic Test Cases.pdf`
 - `L3 - Metamorphic Test Cases.pdf`
 
 ---
 
-## 7. Ambiente experimental e reprodutibilidade
+## 7. Experimental Environment and Reproducibility
 
-As dependências e o ambiente de execução dos experimentos estão descritos nos arquivos:
+The dependencies and execution environment of the experiments are described in the following files:
 
 - `requirements.txt`
 - `environment.yml`
 
-Esses arquivos permitem a **reprodução do ambiente experimental** adotado no desenvolvimento da dissertação.
+These files enable the reproduction of the experimental environment adopted in this research.
 
 ---
 
-## 8. Contexto acadêmico
+## 8. Academic Context
 
-Os materiais disponibilizados neste repositório têm como finalidade:
-- Apoiar a **reprodutibilidade dos experimentos** descritos na dissertação
-- Facilitar a análise comparativa entre diferentes níveis de Testes Metamórficos
-- Servir como base para estudos futuros na área de **Qualidade de Software e Testes de Sistemas Baseados em Machine Learning**
+The materials made available in this repository aim to:
 
-Este repositório possui finalidade exclusivamente acadêmica e científica.
+- Support the reproducibility of the experiments described in the article  
+- Facilitate comparative analysis across different levels of Metamorphic Testing  
+- Serve as a foundation for future studies in the field of Software Quality and Testing of Machine Learning–Based Systems  
+
+This repository is intended exclusively for academic and scientific purposes.
