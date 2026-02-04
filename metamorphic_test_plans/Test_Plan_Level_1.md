@@ -121,67 +121,64 @@ The transformation alters the alignment of samples without modifying their indiv
 
 ---
 
-### **Test Cases — Temporal Lag (lag = 10)**
+### **Test Cases — Temporal Lag
 
 **CT_1C_001 — Permutative Relation (A Lag = 10)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **A** is temporally shifted by **10 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
-**CT_1C_002 — Permutative Relation (B Lag = 10)**  
+**CT_1C_004 — Permutative Relation (B Lag = 10)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **B** is temporally shifted by **10 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
-**CT_1C_003 — Permutative Relation (C Lag = 10)**  
+**CT_1C_007 — Permutative Relation (C Lag = 10)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **C** is temporally shifted by **10 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
-**CT_1C_004 — Permutative Relation (D Lag = 10)**  
+**CT_1C_010 — Permutative Relation (D Lag = 10)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **D** is temporally shifted by **10 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
 ---
 
-### **Test Cases — Temporal Lag (lag = 50)**
-
-**CT_1C_005 — Permutative Relation (A Lag = 50)**  
+**CT_1C_002 — Permutative Relation (A Lag = 50)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **A** is temporally shifted by **50 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
-**CT_1C_006 — Permutative Relation (B Lag = 50)**  
+**CT_1C_005 — Permutative Relation (B Lag = 50)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **B** is temporally shifted by **50 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
-**CT_1C_007 — Permutative Relation (C Lag = 50)**  
+**CT_1C_008 — Permutative Relation (C Lag = 50)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **C** is temporally shifted by **50 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
-**CT_1C_008 — Permutative Relation (D Lag = 50)**  
+**CT_1C_011 — Permutative Relation (D Lag = 50)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **D** is temporally shifted by **50 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
+
 ---
 
-### **Test Cases — Temporal Lag (lag = 100)**
-
-**CT_1C_009 — Permutative Relation (A Lag = 100)**  
+**CT_1C_003 — Permutative Relation (A Lag = 100)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **A** is temporally shifted by **100 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
-**CT_1C_010 — Permutative Relation (B Lag = 100)**  
+**CT_1C_006 — Permutative Relation (B Lag = 100)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **B** is temporally shifted by **100 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
 
-**CT_1C_011 — Permutative Relation (C Lag = 100)**  
+**CT_1C_009 — Permutative Relation (C Lag = 100)**  
 **GIVEN** abstract input variables **A, B, C, and D**  
 **WHEN** input variable **C** is temporally shifted by **100 samples** and the system is executed  
 **THEN** the resulting **Metamorphic Prediction** is compared against the **Baseline Prediction**.
